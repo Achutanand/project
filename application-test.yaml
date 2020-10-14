@@ -1,0 +1,13 @@
+server.port: 8888
+app:
+  name: spring-boot-config-application
+  message: Hello From the Spring Boot Application ${app.name}
+list:
+  values: One, Two, Three
+db.connection:
+  connectionName: http://test-localhost:8090/db
+  username: achuTest
+  passowrd: pattnaik
+  port: 2400
+
+management.endpoints.web.exposure.include: "*"
